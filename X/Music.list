@@ -1,13 +1,24 @@
+host-suffix, p1.music.126.net, direct
+host-suffix, p2.music.126.net, direct
+host-suffix, p3.music.126.net, direct
+host-suffix, p4.music.126.net, direct
+host-suffix, p5.music.126.net, direct
+host-suffix, p1c.music.126.net, direct
+host-suffix, p2c.music.126.net, direct
+host-suffix, p3c.music.126.net, direct
+host-suffix, p4c.music.126.net, direct
+host-suffix, p5c.music.126.net, direct
 # > 网易云音乐
-host-suffix,music.163.com,NeteaseMusic
-host-suffix,music.126.net,NeteaseMusic
-host-keyword,netease,NeteaseMusic
-user-agent,NeteaseMusic*,NeteaseMusic
-user-agent,NeteaseMusic**,NeteaseMusic
-user-agent,网易云音乐*,NeteaseMusic
-user-agent,网易云音乐**,NeteaseMusic
-user-agent,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,NeteaseMusic
-user-agent,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**,NeteaseMusic
-ip-cidr,59.111.181.0/24,NeteaseMusic
-ip-cidr,115.236.118.0/24,NeteaseMusic
-ip-cidr,223.252.199.0/24,NeteaseMusic
+host-suffix, music.163.com, NeteaseMusic
+host-suffix, music.126.net, NeteaseMusic
+host-keyword, netease, NeteaseMusic
+user-agent, NeteaseMusic*, NeteaseMusic
+user-agent, NeteaseMusic**, NeteaseMusic
+user-agent, 网易云音乐*, NeteaseMusic
+user-agent, 网易云音乐**, NeteaseMusic
+user-agent, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*, NeteaseMusic
+user-agent, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**, NeteaseMusic
+ip-cidr, 59.111.128.0/17, NeteaseMusic
+ip-cidr, 115.236.112.0/20, NeteaseMusic
+ip-cidr, 223.252.192.0/19, NeteaseMusic
+ip-cidr, 59.111.181.0/24, NeteaseMusic
